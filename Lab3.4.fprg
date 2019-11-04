@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-04 12:17:04 PM"/>
+        <attribute name="created" value="ZGVsbDtERVNLVE9QLVZCQ0tFS0Y7MjAxOS0xMS0wNDsxMjoxMzozNyBQTTsyNzg3"/>
+        <attribute name="edited" value="ZGVsbDtERVNLVE9QLVZCQ0tFS0Y7MjAxOS0xMS0wNDsxMjoxNzowNCBQTTsxOzI4OTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="(a+b&gt;c)&amp;&amp;(a+c&gt;b)&amp;&amp;(b+c&gt;a)">
+                <then>
+                    <output expression="&quot;3 s&#7889; tr&#234;n l&#224; 3 c&#7841;nh c&#7911;a 1 tam gi&#225;c&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;3 s&#7889; tr&#234;n kh&#244;ng ph&#7843;i l&#224; 3 c&#7841;nh c&#7911;a 1 tam gi&#225;c&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
